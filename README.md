@@ -1,2 +1,30 @@
-# Coding-Ninjas-java-dsa
- This repo contains my solved DSA problems from Coding Ninjas. It includes solutions in Java with clean code and explanations. Topics include Arrays, Strings, LinkedLists, Trees, Graphs, DP, and more. Regularly updated as I progress.
+# 🧠 Data Structures & Algorithms – Coding Ninjas
+
+Welcome to my repository of **Data Structures and Algorithms** problems solved during my DSA journey on [Coding Ninjas](https://www.codingninjas.com/).  
+This repo serves as a personal log and a resource for others preparing for coding interviews or learning DSA.
+
+---
+
+## 🚀 Languages Used
+
+- Java (primary)
+---
+
+## 📌 Topics Covered
+
+- ✅ Arrays & Strings  
+- ✅ Linked Lists  
+- ✅ Stacks & Queues  
+- ✅ Trees & Binary Trees  
+- ✅ Binary Search Trees  
+- ✅ Graphs  
+- ✅ Recursion & Backtracking  
+- ✅ Searching & Sorting  
+- ✅ Greedy Algorithms  
+- ✅ Dynamic Programming  
+- ✅ HashMaps & HashSets  
+- ✅ Heaps & Priority Queues
+
+---
+
+
