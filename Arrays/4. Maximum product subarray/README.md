@@ -1,44 +1,49 @@
-# Sort 0s, 1s and 2s in a Single Scan
+# 🚀 Maximum Product Subarray
 
 ## 🧩 Problem Statement
 
-You are given an integer array `ARR` of size `N` consisting only of `0`s, `1`s, and `2`s. Your task is to sort this array **in a single scan**, i.e., you must iterate over the array only once.
+You are given an array `arr` of integers. Your task is to find the **contiguous subarray** within the array which has the **largest product** of its elements.
 
-This is a classic problem also known as the **Dutch National Flag** problem.
+A subarray is a contiguous portion of the array. For example, for the array `[1,2,3]`, its non-empty subarrays are:
+- `[1]`, `[2]`, `[3]`
+- `[1,2]`, `[2,3]`
+- `[1,2,3]`
+
+You must report the **maximum product** among all possible non-empty contiguous subarrays.
 
 ---
 
 ## ✅ Constraints
 
-- 1 ≤ T ≤ 10 — Number of test cases  
-- 1 ≤ N ≤ 5 × 10⁵ — Size of each array  
-- 0 ≤ ARR[i] ≤ 2 — Array elements can only be 0, 1, or 2  
+- 1 ≤ T ≤ 100 — Number of test cases  
+- 1 ≤ N ≤ 5000 — Size of the array  
+- -100 ≤ arr[i] ≤ 100 — Elements can be negative, zero, or positive  
 - Time Limit: 1 second
 
 ---
 
 ## 📥 Input Format
 
-- First line contains the integer `T`, number of test cases.
+- First line contains an integer `T`, the number of test cases.
 - For each test case:
-  - First line contains the integer `N`, the size of the array.
-  - Second line contains `N` space-separated integers (0, 1, or 2) representing the array.
+  - First line contains an integer `N`, the size of the array.
+  - Second line contains `N` space-separated integers.
 
 ---
 
 ## 📤 Output Format
 
-For each test case, print the sorted array on a new line.
+- For each test case, print the **maximum product** of any contiguous subarray on a new line.
 
 ---
 
-## 🔍 Sample Input
+## 🧪 Sample Input
 
 2
-6
-0 1 2 2 1 0
-7
-0 1 2 1 2 1 2
+4
+3 5 -2 -4
+5
+2 4 3 5 6
 
 shell
 Copy
@@ -46,5 +51,5 @@ Edit
 
 ## ✅ Sample Output
 
-0 0 1 1 2 2
-0 1 1 1 2 2 2
+120
+720
