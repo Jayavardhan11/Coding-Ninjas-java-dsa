@@ -33,8 +33,6 @@ Output: 8
 Explanation: n = 9, range = [0,9]. Missing number is 8.
 ```
 
----
-
 ## ✅ Constraints
 
 - `n == nums.length`
@@ -44,45 +42,9 @@ Explanation: n = 9, range = [0,9]. Missing number is 8.
 
 ---
 
-## ⚙️ Follow-Up: Optimized Solution
-
-Can you solve this using:
-
-- **O(n)** runtime
-- **O(1)** extra space?
-
-### 💡 Hint:
-
-Use the **mathematical formula** for the sum of the first `n` natural numbers:
-
-```
-Sum = n * (n + 1) / 2
-```
-
-Then subtract the sum of all elements in the array from this value.
-
----
-
-## 🧠 Optimal JavaScript Solution
-
-```js
-function missingNumber(nums) {
-    const n = nums.length;
-    const expectedSum = (n * (n + 1)) / 2;
-    const actualSum = nums.reduce((sum, num) => sum + num, 0);
-    return expectedSum - actualSum;
-}
-```
-
----
-
 ## 🏁 Time and Space Complexity
 
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(1)
 
 ---
-
-## 📂 Tags
-
-`Array` • `Math` • `Bit Manipulation`
